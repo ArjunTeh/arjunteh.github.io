@@ -1,19 +1,31 @@
-# Jekyll Resume Theme
+# top level stuff you probably don't need to touch
+highlighter: pygments
+markdown: rdiscount
+rdiscount:
+  extensions: [smart]
+permalink: /:title.html
+paginate: 5
+gems: [jekyll-paginate]
+port: 3000
+safe: true
 
-# Site settings
-title: Jekyll Resume
-email: email@domain.com
-description: Jekyll Resume is a mega simple resume theme for Jekyll.
-baseurl: "http://mattcouchman.co.uk/jekyll-resume/"
-url: "http://mattcouchman.co.uk/jekyll-resume/"
-name: Matt Couchman
-job: front end engineer
-location: Birmingham, UK
-languages: HTML, CSS and Javascript
-twitter_username: mattcouchman
-github_username:  mattcouchman
-codepen_username:  mattcouchman
-email_address: some@email.com
 
-# Build settings
-markdown: kramdown
+# edit here to achieve your personal greatness
+url: http://username.github.io/
+baseurl: /sustain/
+title: Chris Turner
+author: Chris Turner
+description: Personal blog and resume
+avatar: profile.png
+email: yourname@email.com
+github: biomadeira/sustain # username
+twitter: username
+linkedin: username
+stackoverflow: username   #e.g: users/2735833/proton1h1
+#Comment out if you don't want disqus 
+disqus: username
+google_analytics: UA-69391421-1
+
+
+# needed for travis-ci build
+exclude: [vendor]
