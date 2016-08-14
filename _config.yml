@@ -10,15 +10,15 @@ safe: true
 
 # edit here to achieve your personal greatness
 url: http://arjunteh.github.io/
-baseurl:
+baseurl: me
 title: Arjun Teh
 author: Arjun Teh
 description: Personal blog and resume
 avatar: profile.jpg
 email: arjun_teh@utexas.com
 github: arjunteh # username
-linkedin: username
-stackoverflow: username   #e.g: users/2735833/proton1h1
+linkedin: arjunteh
+#stackoverflow: username   #e.g: users/2735833/proton1h1
 #Comment out if you don't want disqus 
 #disqus: username
 #google_analytics: UA-69391421-1
